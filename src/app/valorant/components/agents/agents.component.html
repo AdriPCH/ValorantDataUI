@@ -1,0 +1,29 @@
+<app-toolbar/>
+<body>
+<div class="pantalla-dividida">
+<div class="izquierda">
+  <h1>List of Agents</h1>
+  <p class="parrafo-1"> En esta sección encontrarás a todos los agentes disponibles en Valorant.
+    Explora sus habilidades, roles y características únicas para descubrir cuál se adapta mejor a tu estilo de juego.
+    Cada agente tiene una personalidad, diseño y conjunto de poderes que lo hacen especial dentro del campo de batalla.</p>
+</div>
+<div class="derecha">
+  <img src="fondoreyna.jpg" alt="fondo">
+</div>
+</div>
+  <div class="cards-container">
+
+    <a class="agent-card" *ngFor="let agente of agents" (click)="goToAgentDetail(agente.uuid)">
+      <div class="card-img">
+        <img *ngIf="agente.bustPortrait" [src]="agente.bustPortrait" [alt]="agente.displayName">
+      </div>
+
+      <div class="card-text">
+       <!-- Llama data Name de los agentes-->
+        <!-- Llama data Rol de los agentes y verifica que no se repitan-->
+        <h2 class="name">{{ agente.displayName }} > {{ agente.role?.displayName }}</h2>
+      </div>
+    </a>
+
+  </div>
+</body>

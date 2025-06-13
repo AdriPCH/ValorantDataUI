@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252525;
+  color: white;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 40px;
+}
+
+
+.navbar h1 {
+  display: flex;
+  color: #ADC1E1;
+  font-size: 54px;
+  padding-left: 50px;
+  padding-top: 30px;
+  font-family: 'Bowlby One SC', cursive;
+
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  padding-left: 50px; /* Puedes ajustar este valor */
+  gap: 50px; /* Espaciado entre "VALORANT" y "made by Adri" */
+}
+
+.byline {
+  display: flex;
+  font-size: 36px;
+  color: #ccc;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+/* Navegación */
+.nav-links {
+  margin-right: 34px;
+  position: relative;
+  display: flex;
+  list-style: none;
+  padding-right: 50px;
+  gap: 50px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 36px;
+  transition: background-color 0.5s;
+  font-family: 'Darker Grotesque', sans-serif;
+  padding: 0 40px;
+  border-radius: 25px;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #252525;
+  background-color: #ADC1E1;
+}

@@ -1,0 +1,138 @@
+{
+  "Characters": [
+    {
+      "Name": "Breach",
+      "ID": "5F8D3A7F-467B-97F3-062C-13ACF203C006",
+      "AssetName": "Default__Breach_PrimaryAsset_C",
+      "AssetPath": "",
+      "IsEnabled": true
+    },
+    {
+      "Name": "Raze",
+      "ID": "F94C3B30-42BE-E959-889C-5AA313DBA261",
+      "AssetName": "Default__Clay_PrimaryAsset_C",
+      "AssetPath": "",
+      "IsEnabled": true
+    },
+    {
+      "Name": "Cypher",
+      "ID": "117ED9E3-49F3-6512-3CCF-0CADA7E3823B",
+      "AssetName": "Default__Gumshoe_PrimaryAsset_C",
+      "AssetPath": "",
+      "IsEnabled": true
+    },
+    {
+      "Name": "Sova",
+      "ID": "DED3520F-4264-BFED-162D-B080E2ABCCF9",
+      "AssetName": "Default__Hunter_NPE_PrimaryAsset_C",
+      "AssetPath": "",
+      "IsEnabled": true
+    },
+    {
+      "Name": "Sova",
+      "ID": "320B2A48-4D9B-A075-30F1-1F93A9B638FA",
+      "AssetName": "Default__Hunter_PrimaryAsset_C",
+      "AssetPath": "",
+      "IsEnabled": true,
+      "BaseContent": true
+    },
+    {
+      "Name": "Viper",
+      "ID": "707EAB51-4836-F488-046A-CDA6BF494859",
+      "AssetName": "Default__Pandemic_PrimaryAsset_C",
+      "AssetPath": "",
+      "IsEnabled": true
+    },
+    {
+      "Name": "Phoenix",
+      "ID": "EB93336A-449B-9C1B-0A54-A891F7921D69",
+      "AssetName": "Default__Phoenix_PrimaryAsset_C",
+      "AssetPath": "",
+      "IsEnabled": true,
+      "BaseContent": true
+    },
+    {
+      "Name": "Brimstone",
+      "ID": "9F0D8BA9-4140-B941-57D3-A7AD57C6B417",
+      "AssetName": "Default__Sarge_PrimaryAsset_C",
+      "AssetPath": "",
+      "IsEnabled": true,
+      "BaseContent": true
+    },
+    {
+      "Name": "Sage",
+      "ID": "569FDD95-4D10-43AB-CA70-79BECC718B46",
+      "AssetName": "Default__Thorne_PrimaryAsset_C",
+      "AssetPath": "",
+      "IsEnabled": true,
+      "BaseContent": true
+    },
+    {
+      "Name": "Omen",
+      "ID": "8E253930-4C05-31DD-1B6C-968525494517",
+      "AssetName": "Default__Wraith_PrimaryAsset_C",
+      "AssetPath": "",
+      "IsEnabled": true
+    },
+    {
+      "Name": "Jett",
+      "ID": "ADD6443A-41BD-E414-F6AD-E58D267F4E95",
+      "AssetName": "Default__Wushu_PrimaryAsset_C",
+      "AssetPath": "",
+      "IsEnabled": true,
+      "BaseContent": true
+    },
+    {
+      "Name": "Null UI Data!",
+      "ID": "36FB82AF-409D-C0ED-4B49-57B1EB08FBD5",
+      "AssetName": "Default__BaseCharacterPrimaryDataAsset_C",
+      "AssetPath": "",
+      "IsEnabled": true
+    }
+  ],
+
+  "Maps": [
+    {
+      "Name": "Null UI Data!",
+      "ID": "7A929CD8-4021-C128-5A21-BC896C1929BA",
+      "AssetName": "Default__BaseMapPrimaryAsset_C",
+      "AssetPath": "",
+      "IsEnabled": true
+    },
+    {
+      "Name": "Split",
+      "ID": "D960549E-485C-E861-8D71-AA9D1AED12A2",
+      "AssetName": "Bonsai",
+      "AssetPath": "/Game/Maps/Bonsai/Bonsai",
+      "IsEnabled": true
+    },
+    {
+      "Name": "Bind",
+      "ID": "2C9D57EC-4431-9C5E-2939-8F9EF6DD5CBA",
+      "AssetName": "Duality",
+      "AssetPath": "/Game/Maps/Duality/Duality",
+      "IsEnabled": true
+    },
+    {
+      "Name": "The Range",
+      "ID": "EE613EE9-28B7-4BEB-9666-08DB13BB2244",
+      "AssetName": "Range",
+      "AssetPath": "/Game/Maps/Poveglia/Range",
+      "IsEnabled": true
+    },
+    {
+      "Name": "Shooting Range",
+      "ID": "7CA9995D-4F35-DAE1-ACFB-25B8A2FB1FA0",
+      "AssetName": "Range_NewPlayerExperience_Master",
+      "AssetPath": "/Game/Maps/Poveglia/Range_NewPlayerExperience_Master",
+      "IsEnabled": true
+    },
+    {
+      "Name": "Haven",
+      "ID": "2BEE0DC9-4FFE-519B-1CBD-7FBE763A6047",
+      "AssetName": "Triad",
+      "AssetPath": "/Game/Maps/Triad/Triad",
+      "IsEnabled": true
+    }
+  ]
+}

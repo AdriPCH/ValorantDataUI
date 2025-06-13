@@ -1,0 +1,30 @@
+<app-toolbar/>
+
+<div *ngIf="agents">
+
+  <div class="split-screen">
+
+    <div class="left-section">
+      <h1>{{ agents.displayName }}</h1>
+      <p>{{ agents.description }}</p>
+      <p>Role: {{ agents.role?.displayName }}</p>
+
+      <h3>Abilities</h3>
+      <ul>
+        <li *ngFor="let ability of agents.abilities">
+          <img *ngIf="ability.displayIcon" [src]="ability.displayIcon" [alt]="ability.displayName" width="32" />
+          <strong>{{ ability.displayName }}</strong>: {{ ability.description }}
+        </li>
+      </ul>
+
+      <button class="return" routerLink="/agents">Return</button>
+
+    </div>
+
+    <div class="right-section">
+     <img [src]="agents.bustPortrait" [alt]="agents.displayName" />
+    </div>
+
+  </div>
+
+</div>
