@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute, Router, RouterLink} from '@angular/router';
 import {ValorantService} from '../../../services/valorant.service';
-import {NgForOf, NgIf} from '@angular/common';
+import {NgForOf, NgIf, NgStyle} from '@angular/common';
 import {ToolbarComponent} from '../../public/components/toolbar/toolbar.component';
 
 @Component({
@@ -11,7 +11,8 @@ import {ToolbarComponent} from '../../public/components/toolbar/toolbar.componen
     NgIf,
     NgForOf,
     ToolbarComponent,
-    RouterLink
+    RouterLink,
+    NgStyle
   ],
   templateUrl: './agent-detail.component.html',
   styleUrl: './agent-detail.component.css'
@@ -23,8 +24,7 @@ export class AgentDetailComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private valorantService: ValorantService,
-  ) {
-  }
+  ) {}
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
@@ -37,5 +37,8 @@ export class AgentDetailComponent implements OnInit {
     });
   }
 
+  getAgentGradient(): string {
+    return `linear-gradient(to bottom right, ${this.agents.backgroundGradientColors.join(', ')})`;
+  }
 
 }
