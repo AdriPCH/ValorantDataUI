@@ -18,23 +18,26 @@ body{
   background-size: cover;
   background-position: center ;
   width: 50%;
-  height: 100vh;
+  min-height: 90vh;
   background-color: #fbfafa;
 }
 
 
 .derecha{
   width: 70%;
-  height: 100vh;
   display: flex;
+  align-items: stretch;
 }
 
 .pantalla-dividida{
   display: flex;
+  align-items: stretch;
 }
 
-.izquierda img {
-  position: absolute;
+.derecha img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 h1{
